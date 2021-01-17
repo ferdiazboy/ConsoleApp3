@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp3", "ConsoleApp3\ConsoleApp3.csproj", "{20817338-4FB8-4D8D-B74B-0515BD07B08E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IfElse", "ConsoleApp3\IfElse.csproj", "{20817338-4FB8-4D8D-B74B-0515BD07B08E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Donguler", "Donguler\Donguler.csproj", "{891AD020-0D9D-4CDB-97A2-345E10ED31AF}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Class_Yapisi", "Class_Yapisi\Class_Yapisi.csproj", "{861205DF-A3AA-4A50-B5EF-5F084E3C5375}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "eTicaretOdevi", "eTicaretOdevi\eTicaretOdevi.csproj", "{CBA36F65-6140-4A5F-B4DD-681285E14366}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ETicaretOdevi", "eTicaretOdevi\ETicaretOdevi.csproj", "{CBA36F65-6140-4A5F-B4DD-681285E14366}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metotlar", "Metotlar\Metotlar.csproj", "{38090748-148C-4134-9FD3-E427D64AA5B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metotlar", "Metotlar\Metotlar.csproj", "{38090748-148C-4134-9FD3-E427D64AA5B4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matematik", "Matematik\Matematik.csproj", "{A416C177-9E7E-489A-B0B7-7F26881747E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Matematik", "Matematik\Matematik.csproj", "{A416C177-9E7E-489A-B0B7-7F26881747E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DegerVeReferansTipler", "DegerVeReferansTipler\DegerVeReferansTipler.csproj", "{1275BBDC-655E-4D30-9C15-15DEBE47D394}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DegerVeReferansTipler", "DegerVeReferansTipler\DegerVeReferansTipler.csproj", "{1275BBDC-655E-4D30-9C15-15DEBE47D394}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
