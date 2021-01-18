@@ -13,7 +13,7 @@ namespace Metotlar
             Urun urun1 = new Urun();
             urun1.Adi = "Elma";
             urun1.Fiyati = 15;
-            urun1.Aciklama = "Amasya Elması";
+            urun1.Aciklama = "Amasya Elması!";
 
             Urun urun2 = new Urun();
             urun2.Adi = "Karpuz";
