@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace GenericsIntro
 {
@@ -6,8 +7,13 @@ namespace GenericsIntro
     {
         static void Main(string[] args)
         {
-            MyList<string> isimler = new MyList<string>();
-            isimler.Add("Ferdi");
+            List<string> isimler1 = new List<string>();
+            isimler1.Add("Mercan");
+        
+
+            MyList<string> isimler2 = new MyList<string>();
+            isimler2.Add("Ferdi");
+          
             
         }
     }

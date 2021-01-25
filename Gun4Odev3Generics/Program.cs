@@ -8,27 +8,40 @@ namespace Gun4Odev3Generics
         static void Main(string[] args)
         {
             List<string> sehirler = new List<string>();
+            sehirler.Add("Diyarbakır");
+            sehirler.Add("Diyarbakır");
+            sehirler.Add("Diyarbakır");
+            sehirler.Add("Diyarbakır");
             Console.WriteLine(sehirler.Count);
 
-           // sehirler.Add("Diyarbakır");
+           
 
             MyList<string> sehirler2 = new MyList<string>();
+            sehirler2.Add("Diyarbakır");
+            sehirler2.Add("Diyarbakır");
+            sehirler2.Add("Diyarbakır");
+            sehirler2.Add("Diyarbakır");
+            sehirler2.Add("Diyarbakır");
             Console.WriteLine(sehirler2.Count);
-            //sehirler2.Add("Diyarbakır");
+            
         }
     }
     class MyList<T> //Generic class
     {
         T[] _array;
-        public void Add(T item)
+        T[] _tempArray;
+        public MyList()
         {
             _array = new T[0];
         }
-
+        public void Add(T item)
+        {
+            _tempArray = _array;
+            _array = new T[_array.Length + 1];
+        }
         public int Count
         {
             get { return _array.Length; }
         }
-
     }
 }
